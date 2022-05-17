@@ -1,0 +1,10 @@
+{
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4 }",
+    "C_Cpp.default.cppStandard": "c++17",
+    "files.associations": {
+        "iostream": "cpp",
+        "unordered_set": "cpp",
+        "__tuple": "cpp",
+        "array": "cpp"
+    },
+}
