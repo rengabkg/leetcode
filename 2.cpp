@@ -1,5 +1,3 @@
-#include <bits/stdc++.h>
-
 using namespace std;
 
 struct ListNode {
@@ -12,11 +10,6 @@ struct ListNode {
 
 class Solution {
   public:
-    Solution() {
-        std::ios::sync_with_stdio(false);
-        std::cin.tie(nullptr);
-    }
-
     ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
         ListNode *start = new ListNode();
         ListNode *curNode = start;
